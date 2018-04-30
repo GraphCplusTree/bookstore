@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Redis;
 use PHPUnit\Framework\Constraint\SameSize;
 
 /*
- * 自定义 laracel 命令
+ * 自定义 laravel 命令
  */
 
 
