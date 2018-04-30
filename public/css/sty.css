@@ -1,0 +1,125 @@
+body{
+  padding-bottom: 20px;
+}
+.navbar-brand{
+  font-size: 200%;
+  text-shadow: 0 2px 5px #2060d0;
+}
+.bg-blue{
+  background-color: #3b78e7;
+}
+.nav-item{
+  font-weight: bold;
+}
+.navbar-toggler{
+  border:none;
+  font-size: 30px;
+  text-shadow:0 2px 5px #2060d0;
+}
+#namefetch{
+  color: #FFFFFF;
+}
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+        float: right;
+    }
+
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+        margin-bottom: 10px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 15px;
+        height: 30px;
+    }
+#custom-search-input input:focus{
+  width:300px;
+}
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 0 1px;
+        margin-top: 3px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#030209;
+    }
+
+    .search-query:focus + button {
+        z-index: 3;
+    }
+
+.box-shadow {
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.2), 0 1px 8px 0 rgba(0,0,0,.12);
+}
+.book-panel {
+    margin-bottom: 20px;
+    height: auto;
+}
+.book-preview {
+    width: 200px;
+    height: 200px;
+}
+
+.book-panel .row,
+.book-panel .col-md-6 {
+    padding: 0;
+}
+
+
+
+
+.info-holder{
+  background-color: #FFFFFF;
+}
+
+.info-uploader {
+
+  background-color: #F9F9F9;
+}
+.info-price{
+  font-size: 90%;
+}
+.info-briefintro{
+  font-size: small;
+}
+.info-uploader-name{
+  font-size: xx-small;
+}
+.info-uploadtime{
+  font-size: xx-small;
+}
+.info-viewcount{
+  font-size: xx-small;
+}
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 767px){
+.navbar{
+  height: 48px;
+}
+.custom-search-input{
+  width: 100px;
+}
+}
+@media screen and (max-width: 767px){
+.list-group{
+  display:none;
+}
+}

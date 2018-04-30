@@ -1,0 +1,78 @@
+
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#f1f1f1;
+  background-image: url(1.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-size:cover */
+  padding-top: 15%;
+  padding-bottom: 40px;
+}
+
+.likeabutton {
+	width: 50%;
+    max-width: 330px;
+    margin: 0 auto;
+	color:#f1f111;
+}
+.form-signin {
+    width: 50%;
+    max-width: 330px;
+    padding:0px;
+    margin: 0 auto;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-image: url(signup.jpg);
+	background-position: center; 
+    padding-top: 50px;
+}
+
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+

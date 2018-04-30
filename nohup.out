@@ -1,0 +1,137 @@
+[2018-04-07 09:48:03][1] Processing: App\Mail\OrderShipped
+[2018-04-07 09:48:07][1] Processed:  App\Mail\OrderShipped
+[2018-04-07 09:53:40][2] Processing: App\Mail\OrderShipped
+[2018-04-07 09:53:45][2] Processed:  App\Mail\OrderShipped
+[2018-04-07 09:54:30][3] Processing: App\Mail\OrderShipped
+[2018-04-07 09:55:01][3] Processing: App\Mail\OrderShipped
+[2018-04-07 09:55:31][3] Processing: App\Mail\OrderShipped
+[2018-04-07 09:56:01][3] Processing: App\Mail\OrderShipped
+[2018-04-07 09:56:32][3] Processing: App\Mail\OrderShipped
+[2018-04-07 09:56:36][3] Processed:  App\Mail\OrderShipped
+[2018-04-07 09:56:36][4] Processing: App\Mail\OrderShipped
+[2018-04-07 09:57:07][4] Processing: App\Mail\OrderShipped
+[2018-04-07 09:57:37][4] Processing: App\Mail\OrderShipped
+[2018-04-07 09:58:07][4] Processing: App\Mail\OrderShipped
+[2018-04-07 09:58:39][4] Processing: App\Mail\OrderShipped
+[2018-04-07 09:59:11][4] Processing: App\Mail\OrderShipped
+[2018-04-07 09:59:42][4] Processing: App\Mail\OrderShipped
+[2018-04-07 10:00:12][4] Processing: App\Mail\OrderShipped
+[2018-04-07 10:00:43][4] Processing: App\Mail\OrderShipped
+[2018-04-07 10:01:14][4] Processing: App\Mail\OrderShipped
+[2018-04-07 10:01:45][4] Processing: App\Mail\OrderShipped
+[2018-04-07 10:01:49][4] Processed:  App\Mail\OrderShipped
+[2018-04-07 10:01:50][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:02:20][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:02:51][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:03:22][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:03:53][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:04:24][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:04:54][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:05:24][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:05:55][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:06:26][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:06:58][5] Processing: App\Mail\OrderShipped
+[2018-04-07 10:07:03][5] Processed:  App\Mail\OrderShipped
+[2018-04-07 10:14:49][6] Processing: App\Mail\OrderShipped
+[2018-04-07 10:14:53][6] Processed:  App\Mail\OrderShipped
+[2018-04-07 12:05:07][1] Processing: App\Mail\OrderShipped
+[2018-04-07 12:05:19][1] Processed:  App\Mail\OrderShipped
+
+   Symfony\Component\Process\Exception\ProcessTimedOutException  : The process "'/usr/bin/php' 'artisan' queue:work '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=0" exceeded the timeout of 60 seconds.
+
+  at /Applications/XAMPP/xamppfiles/htdocs/test/vendor/symfony/process/Process.php: 1160
+    1156| 
+    1157|         if (null !== $this->timeout && $this->timeout < microtime(true) - $this->starttime) {
+    1158|             $this->stop(0);
+    1159| 
+  > 1160|             throw new ProcessTimedOutException($this, ProcessTimedOutException::TYPE_GENERAL);
+    1161|         }
+    1162| 
+    1163|         if (null !== $this->idleTimeout && $this->idleTimeout < microtime(true) - $this->lastOutputTime) {
+    1164|             $this->stop(0);
+
+  Exception trace:
+
+  1   Symfony\Component\Process\Process::checkTimeout()
+      /Applications/XAMPP/xamppfiles/htdocs/test/vendor/symfony/process/Process.php : 382
+
+  2   Symfony\Component\Process\Process::wait()
+      /Applications/XAMPP/xamppfiles/htdocs/test/vendor/symfony/process/Process.php : 201
+
+  Please use the argument -v to see more details.
+[2018-04-10 10:47:37][1] Processing: App\Mail\OrderShipped
+[2018-04-10 10:48:07][1] Processing: App\Mail\OrderShipped
+[2018-04-10 10:48:38][1] Processing: App\Mail\OrderShipped
+[2018-04-10 10:49:09][1] Processing: App\Mail\OrderShipped
+[2018-04-10 10:49:40][1] Processing: App\Mail\OrderShipped
+[2018-04-10 10:49:48][1] Processed:  App\Mail\OrderShipped
+[2018-04-10 10:49:48][2] Processing: App\Mail\OrderShipped
+[2018-04-10 10:50:18][2] Processing: App\Mail\OrderShipped
+[2018-04-10 10:50:49][2] Processing: App\Mail\OrderShipped
+[2018-04-10 10:51:21][2] Processing: App\Mail\OrderShipped
+[2018-04-10 10:51:51][2] Processing: App\Mail\OrderShipped
+[2018-04-10 10:52:22][2] Processing: App\Mail\OrderShipped
+[2018-04-10 10:52:52][2] Processing: App\Mail\OrderShipped
+[2018-04-10 10:53:14][2] Processed:  App\Mail\OrderShipped
+[2018-04-10 10:53:14][3] Processing: App\Mail\OrderShipped
+[2018-04-10 10:53:46][3] Processing: App\Mail\OrderShipped
+[2018-04-10 10:54:16][3] Processing: App\Mail\OrderShipped
+[2018-04-10 10:54:46][3] Processing: App\Mail\OrderShipped
+[2018-04-10 10:54:50][3] Processed:  App\Mail\OrderShipped
+
+   Symfony\Component\Process\Exception\ProcessTimedOutException  : The process "'/usr/bin/php' 'artisan' queue:work '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=0" exceeded the timeout of 60 seconds.
+
+  at /Applications/XAMPP/xamppfiles/htdocs/test/vendor/symfony/process/Process.php: 1160
+    1156| 
+    1157|         if (null !== $this->timeout && $this->timeout < microtime(true) - $this->starttime) {
+    1158|             $this->stop(0);
+    1159| 
+  > 1160|             throw new ProcessTimedOutException($this, ProcessTimedOutException::TYPE_GENERAL);
+    1161|         }
+    1162| 
+    1163|         if (null !== $this->idleTimeout && $this->idleTimeout < microtime(true) - $this->lastOutputTime) {
+    1164|             $this->stop(0);
+
+  Exception trace:
+
+  1   Symfony\Component\Process\Process::checkTimeout()
+      /Applications/XAMPP/xamppfiles/htdocs/test/vendor/symfony/process/Process.php : 382
+
+  2   Symfony\Component\Process\Process::wait()
+      /Applications/XAMPP/xamppfiles/htdocs/test/vendor/symfony/process/Process.php : 201
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Process\Exception\ProcessTimedOutException  : The process "'/usr/bin/php' 'artisan' queue:work '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=0" exceeded the timeout of 60 seconds.
+
+  at /Applications/XAMPP/xamppfiles/htdocs/test/vendor/symfony/process/Process.php: 1160
+    1156| 
+    1157|         if (null !== $this->timeout && $this->timeout < microtime(true) - $this->starttime) {
+    1158|             $this->stop(0);
+    1159| 
+  > 1160|             throw new ProcessTimedOutException($this, ProcessTimedOutException::TYPE_GENERAL);
+    1161|         }
+    1162| 
+    1163|         if (null !== $this->idleTimeout && $this->idleTimeout < microtime(true) - $this->lastOutputTime) {
+    1164|             $this->stop(0);
+
+  Exception trace:
+
+  1   Symfony\Component\Process\Process::checkTimeout()
+      /Applications/XAMPP/xamppfiles/htdocs/test/vendor/symfony/process/Process.php : 382
+
+  2   Symfony\Component\Process\Process::wait()
+      /Applications/XAMPP/xamppfiles/htdocs/test/vendor/symfony/process/Process.php : 201
+
+  Please use the argument -v to see more details.
+server: handshake success with fd1
+server: handshake success with fd2
+server: handshake success with fd3
+server: handshake success with fd4
+server: handshake success with fd5
+server: handshake success with fd6
+string(13) "1514000:sjdhg"
+string(14) "1512991:hjsdfb"
+server: handshake success with fd7
+string(11) "1514000:sdj"
+server: handshake success with fd8
