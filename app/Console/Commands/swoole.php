@@ -267,7 +267,9 @@ class swoole extends Command
 
 
     private function stop(){
-
+/*
+ *可以为空
+ */
 
 
     }
@@ -276,7 +278,9 @@ class swoole extends Command
 
     private function restart(){
 
-
+/*
+ *逻辑 以后再写
+ * /
 
 
     }
